@@ -1,0 +1,21 @@
+.messageContainer{
+    display: flex;
+    margin: 10px;
+    border: 2px solid lightgray;
+    padding: 5px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    
+}
+.messageContainer  .avatar{
+
+}
+.messageContainer  .nameContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.messageContainer   .displayName{color: black;}
+.messageContainer  .displayNumber{color: black;}

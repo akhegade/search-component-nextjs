@@ -1,0 +1,11 @@
+.header{
+    color: blanchedalmond;
+    background-color: #0B62EF;
+    border:1px solid gray;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+}
+.title{
+    margin: 20px 0 0 10px;
+}
