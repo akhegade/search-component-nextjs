@@ -7,9 +7,7 @@
     border-radius: 10px;
     
 }
-.messageContainer  .avatar{
 
-}
 .messageContainer  .nameContainer{
     display: flex;
     flex-direction: column;
@@ -17,5 +15,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.messageContainer   .displayName{color: black;}
+.messageContainer   .displayName{color: black;
+margin: 0px;
+}
 .messageContainer  .displayNumber{color: black;}

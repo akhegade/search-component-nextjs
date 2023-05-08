@@ -1,17 +1,17 @@
 import React from "react";
 import Message from "../message/index";
+import MessageListStyles from "./message-list.module.css";
 
 type MessagesPropType = {
   data: [];
 };
 
-export default function MessageList({data}:MessagesPropType) {
+export default function MessageList({data}: MessagesPropType) {
   return (
-    <div>
-        {data.map(user=>(
-            <Message user={user}/>
-        ))}
-      
+    <div className={MessageListStyles.messsageList}>
+      {data.map((user) => (
+        <Message key={user.id} user={user} />
+      ))}
     </div>
   );
 }
