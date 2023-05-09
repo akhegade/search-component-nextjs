@@ -2,7 +2,7 @@ interface MockDataType {
   id: number;
   name: string;
   number: string;
-  imgUrl: string;
+  imgUrl?: string;
 }
 
 export let mockData: MockDataType = [
