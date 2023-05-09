@@ -9,7 +9,7 @@ type MessagesPropType = {
 export default function MessageList({data}: MessagesPropType) {
   return (
     <div className={MessageListStyles.messsageList}>
-      {data.map((user) => (
+      {data.map((user:any) => (
         <Message key={user.id} user={user} />
       ))}
     </div>
