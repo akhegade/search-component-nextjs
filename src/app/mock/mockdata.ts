@@ -5,7 +5,7 @@ interface MockDataType {
   imgUrl?: string;
 }
 
-export let mockData: MockDataType = [
+export let mockData: Array<MockDataType> = [
   {
     id: 1,
     name: "Anil",
