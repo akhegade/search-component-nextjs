@@ -3,7 +3,7 @@ import Message from "../message/index";
 import MessageListStyles from "./message-list.module.css";
 
 type MessagesPropType = {
-  data: [];
+  data: any;
 };
 
 export default function MessageList({data}: MessagesPropType) {
