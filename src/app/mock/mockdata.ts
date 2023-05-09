@@ -1,4 +1,5 @@
 interface MockDataType {
+  id: number;
   name: string;
   number: string;
   imgUrl: string;
