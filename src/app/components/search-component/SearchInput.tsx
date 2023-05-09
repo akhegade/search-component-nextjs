@@ -3,8 +3,8 @@ import SearchBoxStyle from "./searchInput.module.css";
 
 export default function SearchInput(props:any) {
   const [inputValue, setInuptValue] = useState("");
-  const handleOnChange = (e) => {
-    let value = e.target.value || "";
+  const handleOnChange = (e:any) => {
+    let value:string = e.target.value || "";
     setInuptValue(value);
     props.onSearch(value)
   };

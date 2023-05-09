@@ -10,7 +10,7 @@ import {mockData} from "./mock/mockdata";
 export default function Home(props:any) {
   const [data, setData] = useState(mockData);
 
-  const onSearch = (searchValue) => {
+  const onSearch = (searchValue:string) => {
     console.log(searchValue);
     let matchedMessages = [];
     if (searchValue == "") {
