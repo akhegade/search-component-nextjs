@@ -7,7 +7,7 @@ import SearchInput from "./components/search-component/SearchInput";
 import MessageList from "./components/message-list/index";
 import {mockData} from "./mock/mockdata";
 
-export default function Home() {
+export default function Home(props:any) {
   const [data, setData] = useState(mockData);
 
   const onSearch = (searchValue) => {

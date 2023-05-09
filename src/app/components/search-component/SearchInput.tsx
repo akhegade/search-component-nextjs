@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import SearchBoxStyle from "./searchInput.module.css";
 
-export default function SearchInput(props) {
+export default function SearchInput(props:any) {
   const [inputValue, setInuptValue] = useState("");
   const handleOnChange = (e) => {
     let value = e.target.value || "";
