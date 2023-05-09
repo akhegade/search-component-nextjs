@@ -4,9 +4,7 @@ import Image from "next/image";
 import Avatar from "../../assets/images/MaskGroup2.jpg";
 
 type MessagePropType = {
-    name:string,
-    number:string,
-    imgUrl:string
+    user:any
 }
 
 export default function Message(props:MessagePropType) {
